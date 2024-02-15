@@ -25,6 +25,31 @@ Algumas informações úteis e dicas:
 html,
 body {
   font-family: "Roboto", sans-serif;
+  
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px 15px;
+  gap: 10px;
+ 
+}
+
+.card {
+  background-color: #f7d736;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  
+}
+.card-title {
+  padding-bottom: 20px ;
+
+  
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
