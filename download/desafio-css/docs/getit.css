@@ -28,27 +28,117 @@ body {
   
 }
 
-.card-container {
+
+
+.logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 4%;
+  height: 4%;
+
+}
+
+
+.appbar{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  align-items: center;
+  background-color: #f7d736;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+
+.subtitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+.btn {
+  position: relative;
+  display: block;
   padding: 10px 15px;
-  gap: 10px;
+  width: 100%;
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+
+  background-color: #f7d736;
+
+  transition: background-color 0.3s;
+}
+
+
+.form-card{
+  display: flex;
+  border-radius: 7px;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  background-color: white;
+  width: 30%;
+  padding: 10px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+.form-card-title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-size: large;
+  font-weight: 500;
+  width: 30%;
+  
+  border: none;
+  font-family: 'Roboto', sans-serif;;
+}
+
+.autoresize{
+  display: flex;
+  border: 0;
+  font-size: small;
+  resize: none;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
  
 }
 
 .card {
-  background-color: #f7d736;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid black;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 230px; /* Adjust width as needed */
   
 }
 .card-title {
   padding-bottom: 20px ;
-
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bold;
+}
+.card-content {
+  font-family: 'Permanent Marker', cursive;
+  color: #4c4c4c ;
   
 }
 
