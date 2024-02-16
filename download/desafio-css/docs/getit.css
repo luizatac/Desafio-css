@@ -84,13 +84,13 @@ body {
 
 .form-card{
   display: flex;
-  border-radius: 7px;
   flex-direction: column;
-  margin-bottom: 20px;
-  margin-top: 40px;
-  background-color: white;
-  width: 30%;
-  padding: 10px;
+  margin-top: 25px;
+  border-color: white;
+  border-radius: 5px;
+  height: 120px;
+  width: 480px;
+  padding:10px;
   box-shadow: 0 5px 5px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
 }
 
@@ -100,10 +100,8 @@ body {
   margin-bottom: 20px;
   font-size: large;
   font-weight: 500;
-  width: 30%;
-  
   border: none;
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Roboto', sans-serif;
 }
 
 .autoresize{
@@ -118,29 +116,109 @@ body {
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
- 
+  justify-content: center;
+  margin: 40px;
 }
 
 .card {
-  background-color: #fff;
-  border: 1px solid #ccc;
+  display: flex;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  padding: 15px;
-  width: 230px; /* Adjust width as needed */
+  padding: 10px;
+  width: 200px; /* Adjust width as needed */
+  flex-direction: column;
+  justify-content: space-between;
+  height: 120px;
+  margin: auto;
+  margin-bottom: 20px;
+
   
 }
 .card-title {
-  padding-bottom: 20px ;
+  padding: 2px ;
   font-family: 'Permanent Marker', cursive;
   font-weight: bold;
+  display: flex;
 }
 .card-content {
   font-family: 'Permanent Marker', cursive;
-  color: #4c4c4c ;
-  
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  justify-content: center;
+  color:#4c4c4c;
+  align-items: center
 }
+
+.card-color-1 {
+  background-color: #ead3a7;
+}
+
+
+.card-color-2 {
+  background-color: #9de0f5;
+}
+
+
+.card-color-3 {
+  background-color: #ef89ba;
+}
+
+.card-color-4 {
+  background-color:  #abe9c1;
+}
+
+
+.card-color-5 {
+  background-color: #fae890;
+}
+
+
+
+
+.card-rotation-1 {
+  transform: rotate(5deg);
+}
+
+.card-rotation-2 {
+  transform: rotate(4deg);
+}
+
+.card-rotation-3 {
+  transform: rotate(3deg);
+}
+
+.card-rotation-4 {
+  transform: rotate(2deg);
+}
+
+.card-rotation-5 {
+  transform: rotate(1deg);
+}
+
+.card-rotation-6 {
+  transform: rotate(0deg);
+}
+
+.card-rotation-7 {
+  transform: rotate(-1deg);
+}
+
+.card-rotation-8 {
+  transform: rotate(-2deg);
+}
+
+.card-rotation-9 {
+  transform: rotate(-3deg);
+}
+
+.card-rotation-10 {
+  transform: rotate(-4deg);
+}
+.card-rotation-11 {
+  transform: rotate(-5deg);
+}
+
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
